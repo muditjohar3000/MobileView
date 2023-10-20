@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(211, 216, 178);
+    color: rgb(16, 74, 125);
+    line-height: 16pt;
+}
+ h1{
+    font-size: 38pt;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-self: center;
+    margin-bottom: 20px;
+    margin-top: 15px;
+ }
+
+ h2{
+    font-size: 24pt;
+    font-family: cursive;
+    color:rgb(25, 96, 96);
+    margin-top: 15px;
+    
+ }
+
+ h3{
+    font-size: 20pt;
+    font-family:fantasy;
+    color:rgb(65, 99, 172);
+    margin-top: 20px;
+ }
+
+ img{
+    border: 5px solid;
+    padding: 10px;
+    margin: 20px;
+    border-top-right-radius: 30px;
+    height: 250px;
+    width: 90%;
+ }
+
+ li{
+   display: inline-block;
+   margin-left: 10%;
+   color: #3566ff;
+   height: 10px;
+ }
+
+ nav{
+   border: 2px solid black;
+   
+ }
+
+
+
+ nav li{
+   text-decoration: underline solid blue;
+   display: inline-block;
+ }
+
+ .gallery{
+   border: 5px solid;
+   padding: 5px;
+   margin: 20px;
+   height: 200px;
+   width: 15%vw;
+ }
+
+ .gif{
+  display: none;
+ }
+
+ #skip{
+  position:absolute;
+  left:-500px;
+ }
+
+ #skip:focus{
+  left: 200px;
+ }
+
+ #current{
+  background-color: #ffffff;
+  font-size: 22px;
+ }
+
+
+  .grid > div {
+    
+    text-align: center;
+      
+    font-size: 17px;
+        display: grid;
+        height: 50vh;
+        width: 100%;
+}
+
+.animation {
+  animation: pulse 5s linear infinite both;
+  background-color: lightblue;
+}
+@media (prefers-reduced-motion) {
+  .animation {
+    animation: pulse 20s linear infinite both;
+    background-color: lightblue;
+  }
+}
+
